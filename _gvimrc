@@ -1,0 +1,20 @@
+set lines=55
+set columns=150
+
+if has('gui_macvim')
+    set guifontwide=Hiragino\ Kaku\ Gothic\ ProN:h11
+    set guifont=Menlo:h11
+endif
+
+"ビープ音をビジュアルベルに変更
+set visualbell
+
+"ツールバーなし
+set guioptions-=T
+
+"スクロールバーなし
+set guioptions-=r
+set guioptions-=R
+
+"カラースキーマ設定
+colorscheme desert
