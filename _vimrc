@@ -4,9 +4,15 @@ filetype off "ファイルタイプの判別をしない。vundleのために設
 set rtp+=~/.vim/vundle.git/ 
 call vundle#rc()
 
+Bundle 'tpope/vim-rails'
+
 filetype plugin indent on "これは必ずvundleの処理が終わったあとに書く。
 set number "line number.
 syntax enable
+
+" 検索時に大文字小文字を区別しない。ただし、混在しているときは区別する。
+set ignorecase
+set smartcase
 
 "magic comment
 map <silent>m :call append(0, "# -*- coding: utf-8 -*-")<CR>

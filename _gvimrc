@@ -15,6 +15,8 @@ set guioptions-=T
 "スクロールバーなし
 set guioptions-=r
 set guioptions-=R
+set guioptions-=l
+set guioptions-=L
 
 "カラースキーマ設定
 colorscheme desert
