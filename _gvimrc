@@ -19,4 +19,4 @@ set guioptions-=l
 set guioptions-=L
 
 "カラースキーマ設定
-colorscheme desert
+colorscheme desert256
