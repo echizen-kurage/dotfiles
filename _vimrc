@@ -1,14 +1,7 @@
 set nocompatible "vi互換にしない。
-filetype off "ファイルタイプの判別をしない。vundleのために設定する必要がある。
+"filetype off
 
-set rtp+=~/.vim/vundle.git/ 
-call vundle#rc()
-
-Bundle 'tpope/vim-rails'
-Bundle 'Shougo/neocomplcache'
-Bundle 'tpope/vim-endwise'
-
-filetype plugin indent on "これは必ずvundleの処理が終わったあとに書く。
+filetype plugin indent on
 set number "line number.
 syntax enable
 
